@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Surfing Project</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background: url('https://t3.ftcdn.net/jpg/06/31/23/34/360_F_631233483_9cl3mKZ6TQbWWleA4qguZTRtwkfpkYrp.jpg') no-repeat center center;
+            background-size: cover;
+            height: 401px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero button {
+            margin: 5px;
+        }
+        .icon-section .icon {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .pricing .card {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">The Surfing Project</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Accuel</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Le Programme</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Nos Prochaines Sessions</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<header class="hero">
+    <div>
+        <h1>Partez à l'aventure</h1>
+        <p>Découvrez notre école de surf en peer-learning</p>
+        <button class="btn btn-primary">Je m'inscris à la prochaine session</button>
+        <button class="btn btn-secondary">Je découvre le programme</button>
+    </div>
+</header>
+
+<section class="container text-center my-5">
+    <h2>The Surfing Project en 3 Points</h2>
+    <div class="row icon-section">
+        <div class="col-md-4">
+            <div class="icon">🎓</div>
+            <h3>Abordable</h3>
+            <p>Profitez de formations accessibles et de qualité pour maîtriser l'art du surf...</p>
+        </div>
+        <div class="col-md-4">
+            <div class="icon">🛋️</div>
+            <h3>Relax</h3>
+            <p>Détendez-vous et apprenez à surfer dans un environnement convivial et serein...</p>
+        </div>
+        <div class="col-md-4">
+            <div class="icon">👥</div>
+            <h3>Communauté</h3>
+            <p>Rejoignez une communauté de passionnés et partagez des expériences enrichissantes...</p>
+        </div>
+    </div>
+</section>
+
+<section class="container my-5">
+    <h2 class="text-center">Témoignages</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-3">
+                <img src="https://operationsurf.org/wp-content/uploads/2021/01/op_surf_sc_2019_roger_aguirre_smith_5541.jpg" class="card-img-top" alt="Surfing">
+                <div class="card-body">
+                    <p class="card-text">Le surf n'est pas qu'un sport, c'est un mode de vie. C'est une façon de regarder cette vague et de dire, "Hey, amusons-nous !"</p>
+                    <p class="card-text"><small class="text-muted">Jeff, Avril 2019</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKWmTRf8Hb0NG4irb2mT95h5J4rQSj-dgX4w&s" class="card-img-top" alt="Van and Surfboards">
+                <div class="card-body">
+                    <p class="card-text">Grâce à TSP, je voyage à travers le monde avec mon van et je fais du surf ! Si c'était à refaire, je le referais sans hésiter.</p>
+                    <p class="card-text"><small class="text-muted">Jean-Michel, Octobre 2018</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container my-5 text-center pricing">
+    <h2>Tarifs</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Semaine d'Essai</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">0€</h6>
+                    <p class="card-text">Le kiff<br>À Bali<br>Pendant 1 semaine</p>
+                    <a href="#" class="btn btn-primary">S'inscrire</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Early Bird</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">15€</h6>
+                    <p class="card-text">Le kiff<br>À Bali<br>Pendant 12 semaines</p>
+                    <a href="#" class="btn btn-primary">S'inscrire</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Paiement en Trois Fois</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">7€/mois</h6>
+                    <p class="card-text">Le kiff<br>À Bali<br>Pendant 12 semaines</p>
+                    <a href="#" class="btn btn-primary">S'inscrire</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="text-center py-4">
+    <p>© Bootstrap, et The Surfing Project</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
